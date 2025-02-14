@@ -2,6 +2,8 @@
 
 A Streamlit-based web application that classifies text messages as spam or ham using a machine learning model trained on the SMS Spam Collection dataset.
 
+https://cs-spam-detection.streamlit.app/
+
 ## Features
 	•	Machine Learning Pipeline: Uses TF-IDF vectorization and a Multinomial Naive Bayes classifier.
 	•	Hyperparameter Tuning: Implements GridSearchCV for optimal performance.
@@ -17,27 +19,26 @@ A Streamlit-based web application that classifies text messages as spam or ham u
 	•	NumPy
 
 ## How to Run Locally
-	1.	Clone the Repository:
 
-git clone https://github.com/carasolomon/spam_detection.git
+1.	Clone the Repository:
 
-cd spam_detection
+		git clone https://github.com/carasolomon/spam_detection.git
 
-
-	2.	Install Dependencies:
-
-pip install -r requirements.txt
+		cd spam_detection
 
 
-	3.	Run the App:
+2.	Install Dependencies:
 
-streamlit run app.py
+		pip install -r requirements.txt
+
+
+3.	Run the App:
+
+		streamlit run app.py
 
 ## Deployment
 
-This app is ready for deployment on:
-	•	Streamlit Cloud
-	•	Heroku
-	•	Render
+This app is deployed on Streamlit Cloud
+	
 
 
