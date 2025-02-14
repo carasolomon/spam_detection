@@ -5,18 +5,28 @@ A Streamlit-based web application that classifies text messages as spam or ham u
 https://cs-spam-detection.streamlit.app/
 
 ## Features
-	•	Machine Learning Pipeline: Uses TF-IDF vectorization and a Multinomial Naive Bayes classifier.
-	•	Hyperparameter Tuning: Implements GridSearchCV for optimal performance.
-	•	Interactive UI: Built with Streamlit for real-time predictions.
-	•	Batch Prediction: Allows CSV uploads for multiple message classifications.
-	•	Dynamic UI: Includes a reset button to clear input fields seamlessly.
+
+•	Machine Learning Pipeline: Uses TF-IDF vectorization and a Multinomial Naive Bayes classifier.
+
+•	Hyperparameter Tuning: Implements GridSearchCV for optimal performance.
+
+•	Interactive UI: Built with Streamlit for real-time predictions.
+
+•	Batch Prediction: Allows CSV uploads for multiple message classifications.
+
+•	Dynamic UI: Includes a reset button to clear input fields seamlessly.
 
 ## Technologies Used
-	•	Python
-	•	Scikit-learn
-	•	Streamlit
-	•	Pandas
-	•	NumPy
+
+•	Python
+
+•	Scikit-learn
+
+•	Streamlit
+
+•	Pandas
+
+•	NumPy
 
 ## How to Run Locally
 
